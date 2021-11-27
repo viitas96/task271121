@@ -3,9 +3,11 @@ package com.example.web2springEvaluare.service.impl;
 import com.example.web2springEvaluare.model.Employee;
 import com.example.web2springEvaluare.repository.EmployeeRepository;
 import com.example.web2springEvaluare.service.EmployeeService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class EmployeeServiceImpl implements EmployeeService {
     EmployeeRepository employeeRepository;
 
